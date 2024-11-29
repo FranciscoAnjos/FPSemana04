@@ -9,3 +9,7 @@ def read_json(path):
         print("Ocorreu um erro!")
     finally:
         print("Processo concluído!")
+
+if __name__ == "__main__":
+    p = input()
+    read_json(p)
